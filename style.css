@@ -1,0 +1,32 @@
+.wrapper {
+	margin-top: 20px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: left;
+}
+input[type="text"] {
+	max-width: 80%;
+	margin-top: -20px !important;
+	font-size: 26px;
+}
+h2 {
+	margin-left: -5%;
+	color: #20E19E;
+}
+#add {
+	color: #20E19E;
+	font-size: 40px;
+	line-height: 26px;
+}
+#add:hover {
+	color: #8AD3C0;
+	cursor: pointer;
+}
+.list {
+	display: flex;
+	margin-left: 2%;
+	flex-direction: row;
+	justify-content: space-between;
+}
